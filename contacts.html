@@ -59,15 +59,15 @@
 
             </div>
             
-<div class="simple-form">
-    <h3>Quick Message</h3>
-    <form id="simpleContactForm" onsubmit="return simpleValidate(event)">
-        <input type="text" id="simpleName" placeholder="Your Name" required>
-        <input type="email" id="simpleEmail" placeholder="Your Email" required>
-        <textarea id="simpleMessage" rows="4" placeholder="Your Message" required></textarea>
+<div class="contact-form">
+    <h3>Send Message</h3>
+    <form onsubmit="return Validate(event)">
+        <input type="text" id="Name" placeholder="Your Name">
+        <input type="email" id="Email" placeholder="Your Email">
+        <textarea id="Message" rows="4" placeholder="Message"></textarea>
         <button type="submit">Send</button>
     </form>
-    <div id="simpleFormMessage"></div>
+    <div id="FormMessage"></div>
 </div>
         </section>
         <footer class="footer">
