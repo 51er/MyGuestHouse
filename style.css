@@ -90,9 +90,10 @@
     left: 60px;
     font-size: 6rem;
     font-weight: bold;
-    color: grey;
+    color: white;
     cursor: default;
     user-select: none;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.8), 2px 2px 5px black;
 }
 
 .hero-center-text {
