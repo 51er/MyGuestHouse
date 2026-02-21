@@ -299,7 +299,7 @@ body.about-bg {
 }
 
 .img2 {
-    animation: fade2 6s infinite;//* Fades in then out*/
+    animation: fade2 6s infinite;/* Fades in then out*/
 }
 
 /* Keyframes for alternating fade effect */
