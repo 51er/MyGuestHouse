@@ -73,8 +73,6 @@
     position: relative;
     min-height: 100vh;
     background: url('images/house.jpg') no-repeat center center/cover;
-    background-color: rgba(0, 0, 0, 0.4);
-    background-blend-mode: overlay;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -93,6 +91,9 @@
     font-size: 6rem;
     font-weight: bold;
     color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    border-radius: 4px;
     cursor: default;
     user-select: none;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.8), 2px 2px 5px black;
