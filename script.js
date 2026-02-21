@@ -31,3 +31,6 @@ function simpleValidate(event) {
     
     return false;
 }
+// References:
+// W3Schools. (2026). JavaScript Tutorial. https://www.w3schools.com/js/
+// MDN Web Docs. (2026). JavaScript Functions. https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions
