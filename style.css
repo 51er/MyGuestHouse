@@ -391,7 +391,7 @@ body.about-bg {
     max-width: 500px;
 }
 /*Contact Form */
-.simple-form {
+.contact-form {
     max-width: 500px;
     margin: 40px auto;
     padding: 30px;
@@ -400,14 +400,14 @@ body.about-bg {
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);/* Soft shadow */
 }
 
-.simple-form h3 {
+.contact-form h3 {
     text-align: center;
     margin-bottom: 25px;
     color: #2c3e50;/* Dark blue-grey */
 }
 
-.simple-form input,
-.simple-form textarea {
+.contact-form input,
+.contact-form textarea {
     width: 100%;
     padding: 12px;
     margin-bottom: 15px;
@@ -417,13 +417,13 @@ body.about-bg {
     font-size: 16px;
 }
 /* When user clicks on input */
-.simple-form input:focus,
-.simple-form textarea:focus {
+.contact-form input:focus,
+.contact-form textarea:focus {
     outline: none;
     border-color: #2c3e50;
 }
 /* Send button */
-.simple-form button {
+.contact-form button {
     background: #2c3e50;
     color: white;
     padding: 12px 30px;
@@ -434,12 +434,12 @@ body.about-bg {
     width: 100%;
 }
 /* Button hover effect */
-.simple-form button:hover {
+.contact-form button:hover {
     background: #1a2632;
 }
 
 /* Success message - green */
-#simpleFormMessage {
+#FormMessage {
     margin-top: 15px;
     padding: 10px;
     border-radius: 4px;
@@ -447,13 +447,13 @@ body.about-bg {
     display: none;
 }
 /* Error message - red */
-#simpleFormMessage.success {
+#FormMessage.success {
     display: block;
     background: #d4edda;
     color: #155724;
 }
 
-#simpleFormMessage.error {
+#FormMessage.error {
     display: block;
     background: #f8d7da;
     color: #721c24;
