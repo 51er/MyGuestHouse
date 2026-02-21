@@ -58,7 +58,17 @@
                 </small>
 
             </div>
-
+            
+<div class="simple-form">
+    <h3>Quick Message</h3>
+    <form id="simpleContactForm" onsubmit="return simpleValidate(event)">
+        <input type="text" id="simpleName" placeholder="Your Name" required>
+        <input type="email" id="simpleEmail" placeholder="Your Email" required>
+        <textarea id="simpleMessage" rows="4" placeholder="Your Message" required></textarea>
+        <button type="submit">Send</button>
+    </form>
+    <div id="simpleFormMessage"></div>
+</div>
         </section>
         <footer class="footer">
             <h3>CASA UNDA</h3>
