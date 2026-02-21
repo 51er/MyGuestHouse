@@ -281,20 +281,17 @@ body.about-bg {
     }
 
 .discover-image {
-    position: relative;
     width: 300px;
-    aspect-ratio: 1 / 1;/* Square aspect ratio */
-    overflow: hidden;/* Hides overflow during animation */
-}
+    height: 300px;
+    position: relative;
 }
 
-/* Images for fade animation */
-    .discover-image img {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
+.discover-image img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* no zoom */
+}
 
 /* Image fade animations */
 .img1 {
