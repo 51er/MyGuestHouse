@@ -458,3 +458,17 @@ body.about-bg {
     background: #f8d7da;
     color: #721c24;
 }
+/* Mobile responsive */
+@media (max-width: 768px) {
+    .hero-title { font-size: 3rem; top: 80px; left: 20px; }
+    .discover-card { flex-direction: column; padding: 30px 20px; }
+    .footer-columns { flex-direction: column; text-align: center; gap: 30px; }
+    .contact-section { padding: 100px 20px; }
+    .sidebar { width: 80%; left: -80%; }
+}
+
+/* Small phones */
+@media (max-width: 480px) {
+    .hero-title { font-size: 2.2rem; top: 60px; }
+    .hero-center-text h2 { font-size: 1.2rem; }
+}
