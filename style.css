@@ -78,6 +78,7 @@
 .hero {
     position: relative;
     min-height: 100vh;
+    /* Background image: house.jpg - Beach house exterior (Microsoft, 2025) */
     background: url('images/house.jpg') no-repeat center center/cover;
     display: flex;
     justify-content: center;
@@ -261,6 +262,7 @@ body {
 
 /* About page background image */
 body.about-bg {
+    /* Background image: about-bg.jpg - Abstract texture (Microsoft, 2025) */
     background: url('images/about-bg.jpg') no-repeat center center fixed;
     background-size: cover;
 }
