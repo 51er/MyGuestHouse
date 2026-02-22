@@ -280,14 +280,19 @@ body.about-bg {
         flex-direction: row-reverse;
     }
 
-.discover-image img {
-    width: 100%;
-    height: auto;
-    object-fit: contain;
+/* Image container for fade effect */
+.discover-image {
+    position: relative;
+    width: 300px;
+    aspect-ratio: 1 / 1;
+    overflow: hidden;
 }
 
 .discover-image img {
     position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 /* Image fade animations */
