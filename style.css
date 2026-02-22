@@ -98,13 +98,13 @@
     left: 60px;
     font-size: 6rem;
     font-weight: bold;
-    color: white;
+    color: #2C3E50;  /* Dark navy-blue*/
     background-color: transparent; /* background color is transparent */
     padding: 10px 20px;
     border-radius: 4px;
     cursor: default;/* Rounded corners */
     user-select: none;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.8), 2px 2px 5px black;/* Better readabilitY*/
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.3); /* Soft light shadow */
 }
 
 .hero-center-text {
