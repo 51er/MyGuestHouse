@@ -99,7 +99,7 @@
     font-size: 6rem;
     font-weight: bold;
     color: white;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: transparent; /* background color is transparent */
     padding: 10px 20px;
     border-radius: 4px;
     cursor: default;/* Rounded corners */
